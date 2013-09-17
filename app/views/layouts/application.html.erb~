@@ -7,7 +7,7 @@
       <%= csrf_meta_tags %>
     </head>
     <body>
-        <div id = header>
+        <div id = head>
             <h1> Application Template </h1>
         </div>
         <div class = posting>

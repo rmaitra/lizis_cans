@@ -3,7 +3,7 @@
     <p>
         Welcome to your new application!
     </p>
-    <div class = 'comments'>
+    <div>
         <% @microposts.each do |micropost| %>
           <h3> <%= @users[micropost.user_id-1].name %></h3>
           <p><%= micropost.content %></p>
